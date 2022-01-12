@@ -1,6 +1,6 @@
 
     data = async (a,b,c,d) =>{
-        await fetch(`https://suryakarta.github.io/home//${a}`,{
+        await fetch(`https://suryakarta.github.io/home/${a}`,{
             method : 'POST',
             headers: {
                 "Content-Type" : "application/json",
