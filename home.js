@@ -1,6 +1,6 @@
 
     data = async (a,b,c,d) =>{
-        await fetch(`https://suryakartanusantara.smooth.asia/${a}`,{
+        await fetch(`https://suryakarta.github.io/home//${a}`,{
             method : 'POST',
             headers: {
                 "Content-Type" : "application/json",
@@ -32,7 +32,7 @@
                 <div class="item features-image сol-12 col-md-6 col-lg-4">
                     <div class="item-wrapper">
                         <div class="item-img">
-                            <a href="https://suryakartanusantara.smooth.asia">
+                            <a href="https://suryakarta.github.io/home/">
                                 <img src="${b.img}" alt="${b.title}">
                             </a>
                         </div>
@@ -73,7 +73,7 @@
                                 <a href="${linkBLog}.php" class="text-black">${d.text}</a>
                             </p>
                             <p class="mbr-text mbr-fonts-style mt-3 mb-0 display-7" id='share'>
-                                <button class="btn btn-primary text-white" onclick="sharing('${d.title}','https://suryakartanusantara.smooth.asia/${linkBLog}.php')">Bagikan 
+                                <button class="btn btn-primary text-white" onclick="sharing('${d.title}','https://suryakarta.github.io/home//${linkBLog}.php')">Bagikan 
                                 <span class="mbr-iconfont mbr-iconfont-social socicon-sharethis socicon"></span>
                                 </button>
                             </p>
@@ -98,12 +98,12 @@
             <div class="container-fluid">
                 <div class="navbar-brand">
                     <span class="navbar-logo">
-                        <a href="https://suryakartanusantara.smooth.asia">
+                        <a href="https://suryakarta.github.io/home/">
                             <img src="${a.info.cover}" alt="${a.info.fulltitle}" style="height: 3rem;">
                         </a>
                     </span>
                     <span class="navbar-caption-wrap">
-                        <a class="navbar-caption text-black text-primary display-7" href="https://suryakartanusantara.smooth.asia">${a.info.subtitle}</a>
+                        <a class="navbar-caption text-black text-primary display-7" href="https://suryakarta.github.io/home/">${a.info.subtitle}</a>
                     </span>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -117,7 +117,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav nav-dropdown">
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="https://suryakartanusantara.smooth.asia">Branda</a>
+                            <a class="nav-link link text-black display-4" href="https://suryakarta.github.io/home/">Branda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link link text-black display-4" href="blog.php">Blog</a>
@@ -211,7 +211,7 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="image-block">
-                        <a href="https://suryakartanusantara.smooth.asia">
+                        <a href="https://suryakarta.github.io/home/">
                             <img src="${a.info.cover}" alt="${a.info.fulltitle}">
                         </a>
                         <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Logo ${a.info.title}</p>
@@ -352,7 +352,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="image-wrapper">
-                        <a href="https://suryakartanusantara.smooth.asia">
+                        <a href="https://suryakarta.github.io/home/">
                             <img src="assets/images/02-1280x720.jpg" alt="Yayasan marhaenis mukmin suryakarta nusantara">
                         </a>
                     </div>
@@ -465,7 +465,7 @@
     <button style="position:fixed;width: 50px;height: 50px;background-color: orange;bottom: 85px;right: 15px;border:none" onclick="whatsapp('${a.kontak.street}')">
         <span class="mbr-iconfont mbr-iconfont-social socicon-googlemaps socicon" style="color:white"></span>
     </button>
-    <button id='share' style="position:fixed;width: 50px;height: 50px;background-color: blue;bottom: 140px;right: 15px;border:none" onclick="sharing('${title}','https://suryakartanusantara.smooth.asia/https://suryakartanusantara.smooth.asia')">
+    <button id='share' style="position:fixed;width: 50px;height: 50px;background-color: blue;bottom: 140px;right: 15px;border:none" onclick="sharing('${title}','https://suryakarta.github.io/home//https://suryakarta.github.io/home/')">
         <span class="mbr-iconfont mbr-iconfont-social socicon-sharethis socicon" style="color:white"></span>
     </button>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5890023057020023"
